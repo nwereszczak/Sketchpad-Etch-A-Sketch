@@ -1,14 +1,16 @@
 
+#outerCaseOfGrid {
+	width: 960px;
+}
+
 #grid {
 	margin: auto;
 }
 
-#grid div {
-	height: 25px;
-	width: 25px;
-	background-color: gray;
-	border: 1px solid black;
-	float: left;
+.cell {
+	height: 30px;
+	width: 30px;
+	border: 1px solid #dbdbdb;
 	display: inline-block;
 	margin: 0;
 }
