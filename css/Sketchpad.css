@@ -1,0 +1,14 @@
+
+#grid {
+	margin: auto;
+}
+
+#grid div {
+	height: 25px;
+	width: 25px;
+	background-color: gray;
+	border: 1px solid black;
+	float: left;
+	display: inline-block;
+	margin: 0;
+}
