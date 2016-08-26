@@ -9,7 +9,6 @@ $(document).ready(function() {
 			op = parseFloat(op, 10);
 			if( op === 1 ) op = 0;
 			op = (op+0.1).toString();
-			console.log(op);
 			if( op === "1") $(this).addClass("max");
 			$(this).css("opacity", op);
 		}
@@ -29,5 +28,7 @@ function buildGrid() {
 }
 
 function reset() {
-	
+	var $cell = $(".cell");
+	$cell.css("opacity", "1");
+	$cell.css("background-color", "transparent");
 }
